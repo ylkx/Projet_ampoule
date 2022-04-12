@@ -1,0 +1,176 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background-image:url('https://media.istockphoto.com/photos/retro-vintage-workshop-with-misc-tools-picture-id1150892732?k=20&m=1150892732&s=612x612&w=0&h=iTZWuH_NvurOmvZAVPaSn7Q_mWkGUfE1O4P7DJsHlkk=');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.form-container{
+    width: 25%;
+    margin: 0 auto;
+    height: 350px;
+    background-color: #fef1df;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0.1rem solid rgba(90, 156, 73, 0.767);
+    margin-top: 10%;
+}
+
+
+
+.form-container form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fef1df;
+    
+}
+
+.form-container form .input-etage{
+    background-color: #fef1df;
+    display: flex;
+    margin-left: 150px;
+}
+
+.form-container form .input-etage>label{
+    background-color: #fef1df;
+    width: 20%;
+}
+
+.form-container form .input-etage input{
+    background-color: #fef1df;
+    margin-left: 10px;
+    
+    
+}
+
+.form-container form .input-position{
+    background-color: #fef1df;
+    display: flex;
+    margin-left: 150px;
+}
+
+.form-container form .input-position>label{
+    background-color: #fef1df;
+    
+}
+
+.form-container form .input-position input{
+    background-color: #fef1df;
+    margin-left: 10px;
+    width: 20%;
+    
+}
+.form-container form .input-prix{
+    background-color: #fef1df;
+    display: flex;
+    margin-left: 150px;
+}
+
+.form-container form .input-prix>label{
+    background-color: #fef1df;
+    width: 20%;
+}
+
+.form-container form .input-prix input{
+    background-color: rgba(118, 204, 96, 0.767);
+    border-radius: 5px;
+    width: 20%;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.form-container form .input-submit{
+    background-color: #fef1df;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form-container form .input-submit input{
+    background-color: #fef1df;
+    margin-left: 10px;
+    
+}
+
+select{
+    width: 20%;
+    background-color: rgba(118, 204, 96, 0.767);
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.titre{
+
+    text-decoration : underline rgba(90, 156, 73, 0.767);
+}
+
+
+.btn-submit {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background-color: rgba(118, 204, 96, 0.767);
+}
+.btn-submit:hover{
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+
+.btn-href{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-top: 10px;
+    height: 30px;
+    color: black;
+    background-color: rgba(118, 204, 96, 0.767);
+    border-color: rgba(118, 204, 96, 0.767);
+    border-radius: 5px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.btn-href:hover{
+    background-color: yellow;
+}
+
+.groupe1{
+    margin-left: 15px;
+}
+
+.container{
+    background-color: #fef1df;
+    border-radius: 5px;
+    margin-top: 10% ;
+    padding: 10px;
+}
+
+nav{
+    padding: 10px;
+    background-color: #fef1df;
+}
+
+@media all and (max-width: 1080px) 
+{  nav input text select .from .form-container .input-prix .inpout-position .input-etage  .btn-href .btn-submit{
+      width: auto;
+    }
+  }
